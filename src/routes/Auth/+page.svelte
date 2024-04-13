@@ -11,8 +11,11 @@ import Header from '$lib/components/widgets/header.svelte';
 
 <style>
     p {
-        text-align:left;
+        text-align:center;
         font-size: 25px;
         font-weight: 500px;
     }
+@media (max-width:480px) {
+p {text-align:left;}
+}
 </style>
